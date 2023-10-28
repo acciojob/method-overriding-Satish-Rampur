@@ -9,12 +9,12 @@ public class Main {
         }
     }
 
-    static class B extends  A
+    static class B extends A
     {
         @Override
         public static String meth()
         {
-            "Method is overridden in Extendend class B";
+           return "Method is overridden in Extendend class B";
         }
     }
     public static void main(String[] args) {
