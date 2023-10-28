@@ -11,7 +11,6 @@ public class Main {
 
     static class B extends A
     {
-        @Override
         public static String meth()
         {
            return "Method is overridden in Extendend class B";
